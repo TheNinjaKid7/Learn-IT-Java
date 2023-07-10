@@ -30,6 +30,6 @@ public class GreatestCommonDivisor {
         return gcdRecursive(secondNumber, firstNumber % secondNumber);
     }
     	//Test if fetch works
-    //Part 2 
+    //Part 3 but this time from the macbook
 }
 
