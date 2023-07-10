@@ -29,6 +29,7 @@ public class GreatestCommonDivisor {
         // Recursive call: Calculate GCD using Euclidean algorithm
         return gcdRecursive(secondNumber, firstNumber % secondNumber);
     }
-
+    	//Test if fetch works
+    //Part 2 
 }
 
