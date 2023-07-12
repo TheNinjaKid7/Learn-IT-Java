@@ -26,6 +26,7 @@ public class SumDigitsInNumber {
 			sum = sum + digit; // Add the digit to the sum
 			temp = temp / 10; // Remove the rightmost digit
 		}
+		
 		return sum;
 	}
 	
