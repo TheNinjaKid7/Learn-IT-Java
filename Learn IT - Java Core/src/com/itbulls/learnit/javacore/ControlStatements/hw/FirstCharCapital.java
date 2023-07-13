@@ -18,12 +18,11 @@ public class FirstCharCapital {
 
 		// Track whether we have encountered the first letter of a word
 		boolean found = false;
-
 		for (int i = 0; i < chars.length; i++) {
 			// Check if we haven't found the first letter of a word and the current
 			// character is a letter
 			if (!found && Character.isLetter(chars[i])) {
-
+				
 				// Convert the current character to uppercase
 				chars[i] = Character.toUpperCase(chars[i]);
 
